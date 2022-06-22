@@ -68,7 +68,7 @@ function getTime(){
          long=position.coords.latitude;
          lat=position.coords.latitude;
 
-         fetch( 'https://api.openweathermap.org/data/2.5/weather?lat=-0.7157049&lon=-0.7157049&appid=aa529deeb55d7888b375078a94a20a65')
+         fetch( 'https://api.openweathermap.org/data/2.5/weather?lat=-0.7157049&lon=-0.7157049&appid={Your id}')
                  .then(Response=>Response.json())
                  .then(data=>{
                      
